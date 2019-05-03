@@ -5,7 +5,8 @@
   "scripts": {
     "build": "webpack --config webpack/webpack.config.prod.js  --colors",
     "start": "webpack-dev-server --open --config webpack/webpack.config.dev.js",
-    "deploy": "git subtree push --prefix build upstream master"
+    "deploy": "git subtree push --prefix build upstream master",
+    "force": "git push origin `git subtree push --prefix build upstream master` --force"
   },
   "repository": {
     "type": "git",
