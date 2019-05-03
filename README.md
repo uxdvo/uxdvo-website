@@ -1,14 +1,17 @@
-# Webpack Frontend Starterkit
+# UXDVO Website Source Code
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/wbkd/webpack-starter.svg)](https://greenkeeper.io/)
+## IMPORTANT
 
-A lightweight foundation for your next webpack based frontend project.
-
-
-### Installation
+Set your origin as `git@github.com:uxdvo/uxdvo-website.git`
 
 ```
-npm install
+git remote add origin git@github.com:uxdvo/uxdvo-website.git
+```
+
+Set your upstream as `git@github.com:uxdvo/uxdvo.github.io.git`
+
+```
+git remote add origin git@github.com:uxdvo/uxdvo.github.io.git
 ```
 
 ### Start Dev Server
@@ -18,6 +21,13 @@ npm start
 ```
 
 ### Build Prod Version
+
+```
+npm run build
+```
+
+### Deploy To Upstream
+Make sure to properly setup your remote repositories
 
 ```
 npm run build
