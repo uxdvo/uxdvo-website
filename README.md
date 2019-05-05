@@ -27,10 +27,14 @@ npm run build
 ```
 
 ### Deploy To Upstream
-Make sure to properly setup your remote repositories
+Make sure to properly setup your remote repositories.
+
+__Careful with this command because this script will assume all changes you made on the source code is final. It will generate a build directory out of the source folder and force push the files inside `build` folder to the master branch of `git@github.com:uxdvo/uxdvo.github.io.git`__
+
+__Before you can deploy make sure to commit and push all changes first on your origin repository__
 
 ```
-npm run build
+npm run deploy
 ```
 
 ### Features:
