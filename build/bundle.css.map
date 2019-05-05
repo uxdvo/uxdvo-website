@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///./src/styles/scss/index.scss (1)"],"names":[],"mappings":";AAAA;AACA;AACA,wCAAwC;;AAExC;AACA;AACA;AACA,uBAAuB","file":"bundle.css","sourcesContent":["body {\n  color: #00AD4D;\n  font-family: \"Montserrat\", sans-serif; }\n\na {\n  border-bottom: 4px solid #34894E;\n  text-decoration: none;\n  padding-bottom: 10px; }\n"],"sourceRoot":""}

@@ -1,0 +1,12 @@
+@import "partials/base";
+@import "modules/colors";
+
+body {
+  color: $color-primary;
+  font-family: $font-family;
+}
+a{
+  border-bottom: $a-underline-size solid $color-secondary;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
