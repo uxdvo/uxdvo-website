@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAQ,iFAAyE;ACGjF,IAAK;EACH,KAAK,ECHS,OAAO;EDIrB,WAAW,EDFC,wBAAwB;;ACItC,CAAC;EACC,aAAa,EAAE,iBAAwC;EACvD,eAAe,EAAE,IAAI;EACrB,cAAc,EAAE,IAAI",
+"sources": ["../scss/partials/_typography.scss","../scss/index.scss","../scss/modules/_colors.scss"],
+"names": [],
+"file": "index.css"
+}
